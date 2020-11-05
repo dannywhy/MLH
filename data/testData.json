@@ -1,0 +1,10 @@
+{
+  "name": "MaRtIn",
+  "gender": {
+    "he": 0,
+    "she": 1,
+    "it": 2
+  },
+  "age": 88,
+  "storyType": 6
+}
