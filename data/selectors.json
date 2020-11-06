@@ -1,12 +1,16 @@
 {
+  "title": "//h3",
+  "description": "//p",
   "label": ".ant-form-item-required",
   "name": "#name",
   "gender": ".ant-radio",
   "age": "#age",
   "story": ".ant-select-selector",
+  "storyFieldPlaceholder": ".ant-select-selection-placeholder",
   "button": ".ant-btn",
   "storyClick": ".ant-select-show-arrow",
   "storyType": ".ant-select-item-option",
   "create": ".ant-btn",
-  "tryAgain": ".btn-primary"
+  "tryAgain": ".btn-primary",
+  "upload":".ant-upload"
 }
