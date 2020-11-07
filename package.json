@@ -10,6 +10,7 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
+    "@types/mocha": "^8.0.3",
     "@wdio/allure-reporter": "^6.6.6",
     "@wdio/cli": "^6.6.7",
     "@wdio/dot-reporter": "^6.6.6",
