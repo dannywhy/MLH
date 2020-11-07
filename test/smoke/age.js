@@ -1,10 +1,4 @@
 
-/*"STR:
-1. Open the web app
-2. Enter ""0.5"" in the field
-
-Expected result: error appears
-Actual result:"*/
 import{expect}from"chai";
 const sel = require('../../data/selectors.json');
 const exp = require('../../data/expected.json');
@@ -21,10 +15,25 @@ describe('Age Field checks', function () {
     it('TC041 Verify the error message appearance when 0.5 is entered', function () {
         browser.url('');
         $(sel.age).setValue('0.5');
-        browser.pause('5000')
+        expect($(sel.ageErrorMessage).getProperty('innerText')).to.be.equal(exp.ageErrorMessage);
+
+    });
+    it('TC042 Verify the error message appearance when e is entered', function () {
+        browser.url('');
+        $(sel.age).setValue('e');
+        expect($(sel.ageErrorMessage).getProperty('innerText')).to.be.equal(exp.ageErrorMessage);
+    });
+
+    it('TC043 Verify the error message appearance when 0 is entered', function () {
+        browser.url('');
+        $(sel.age).setValue('0');
         expect($(sel.ageErrorMessage).getProperty('innerText')).to.be.equal(exp.ageErrorMessage);
 
     });
 });
+/*"STR:
+1. Open the web app
+2. Enter ""O"" in the field
 
-
+Expected result: error appears
+Actual result:"*/

@@ -12,8 +12,10 @@
   "description": "//p",
   "ageErrorMessage": ".ant-form-item-explain",
   "tryAgain": ".btn-primary",
-  "create": ".ant-btn"
+  "create": ".ant-btn",
+  "imageUpload": ".ant-upload"
 }
+
 
 
 

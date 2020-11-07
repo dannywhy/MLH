@@ -31,7 +31,7 @@ exports.config = {
         './test/smoke/inputs.js',
         './test/smoke/labels.js',
         './test/regression/ageNegative.js',
-        './test/smoke/age.js',
+        './hooks/hooksVasylyna.js',
     ],
     //
     // ============
