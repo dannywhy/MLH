@@ -1,4 +1,5 @@
 {
+  "mainPageNavigation": "//h3",
   "label": ".ant-form-item-required",
   "name": "#name",
   "gender": ".ant-radio",
@@ -6,5 +7,13 @@
   "story": ".ant-select-selector",
   "button": ".ant-btn",
   "storyClick": ".ant-select-show-arrow",
-  "storyType": ".ant-select-item-option"
+  "storyType": ".ant-select-item-option",
+  "storyType2": "ant-select-item-option-content",
+  "description": "//p",
+  "ageErrorMessage": ".ant-form-item-explain",
+  "tryAgain": ".btn-primary",
+  "create": ".ant-btn"
 }
+
+
+

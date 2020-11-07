@@ -1,0 +1,19 @@
+
+{
+  "name": "LadyBug",
+  "gender": {
+    "he": 0,
+    "she": 1,
+    "it": 2
+  },
+  "age": 123,
+  "storyType": {
+    "OvercomingTheMonster": 0,
+    "Rebirth": 1,
+    "Quest": 2,
+    "Journey and Return": 3,
+    "Rags and Riches": 4,
+    "Tragedy": 5,
+    "Comedy": 6
+  }
+}

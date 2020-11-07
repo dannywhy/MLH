@@ -1,6 +1,10 @@
 {
+  "mainPageNavigation": "My Little Hero",
+  "description": "Let's create your own HERO! It's super easy with our application!",
   "labelName": "1. What is your Hero's name?",
   "labelGender": "2. Please choose a gender.",
   "labelAge": "3. How old is your hero?",
-  "labelStory": "4. What type of story would you like to read?"
+  "labelStory": "4. What type of story would you like to read?",
+  "ageErrorMessage": "looks like unreal age"
+
 }
