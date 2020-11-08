@@ -10,6 +10,9 @@
   "button": ".ant-btn",
   "storyClick": ".ant-select-show-arrow",
   "storyType": ".ant-select-item-option",
+  "uploadFile": ".ant-upload",
+  "tryAgain": ".btn-primary"
+  "storyType": ".ant-select-item-option",
   "create": ".ant-btn",
   "storyTitle": ".mb-4",
   "tryAgain": ".btn"

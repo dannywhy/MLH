@@ -1,5 +1,5 @@
 {
-  "name": "MaRtIn",
+  "name": "Martin",
   "gender": {
     "he": 0,
     "she": 1,
@@ -16,4 +16,4 @@
     "Comedy": 6
   },
   "pathToFile": "../resources/Liberty.jpg"
-  }
+}
