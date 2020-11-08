@@ -1,18 +1,19 @@
 {
-<<<<<<< HEAD
-  "name": "LadyBug",
-=======
-  "name": "MaRtIn",
->>>>>>> origin/master
   "gender": {
     "he": 0,
     "she": 1,
     "it": 2
   },
-<<<<<<< HEAD
-  "age": 123,
-=======
-  "age": 88,
->>>>>>> origin/master
   "storyType": 6
 }
+  "storyType": {
+    "OvercomingTheMonster": 0,
+    "Rebirth": 1,
+    "Quest": 2,
+    "JourneyAndReturn": 3,
+    "RagsAndRiches": 4,
+    "Tragedy": 5,
+    "Comedy": 6
+  },
+  "pathToFile": "../resources/Liberty.jpg"
+  }
