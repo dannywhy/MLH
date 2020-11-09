@@ -25,13 +25,17 @@ exports.config = {
         './hooks/hooksVasylyna.js',
         './test/regression/ageNegative.js',
         './test/smoke/age.js',
+        './helpers/uploadingPicture.js',
+        './test/regression/testUploadPictureFunction.js',
+        './test/smoke/storyTesting.js',
     ],
     // Patterns to exclude.
     exclude: [
         './test/smoke/inputs.js',
-        './test/smoke/labels.js',
         './test/regression/ageNegative.js',
         './hooks/hooksVasylyna.js',
+        './test/smoke/age.js',
+        './helpers/uploadingPicture.js',
     ],
     //
     // ============

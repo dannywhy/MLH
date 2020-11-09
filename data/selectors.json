@@ -5,6 +5,7 @@
   "gender": ".ant-radio",
   "age": "#age",
   "story": ".ant-select-selector",
+  "pictureLabel": ".ant-form-item-label",
   "button": ".ant-btn",
   "storyClick": ".ant-select-show-arrow",
   "storyType": ".ant-select-item-option",
@@ -13,7 +14,7 @@
   "ageErrorMessage": ".ant-form-item-explain",
   "tryAgain": ".btn-primary",
   "create": ".ant-btn",
-  "imageUpload": ".ant-upload"
+  "imageUpload": ".ant-upload input"
 }
 
 
