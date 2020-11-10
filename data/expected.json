@@ -8,5 +8,14 @@
   "namesFieldPlaceholder": "Hero's name",
   "agesFieldPlaceholder": "Hero's age",
   "storiesFieldPlaceholder": "Type of the story",
-  "storyTitleComedy": "Two Cats And A "
+  "storyTitleComedy": "Two Cats And A ",
+  "storyType": {
+    "over": "Overcoming the Monster",
+    "rebirth": "Rebirth",
+    "quest": "Quest",
+    "journey": "Journey and Return",
+    "rags": "Rags and Riches",
+    "tragedy": "Tragedy",
+    "comedy": "Comedy"
+  }
 }
