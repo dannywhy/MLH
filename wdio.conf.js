@@ -31,11 +31,9 @@ exports.config = {
     ],
     // Patterns to exclude.
     exclude: [
-        './test/smoke/inputs.js',
         './test/regression/ageNegative.js',
         './hooks/hooksVasylyna.js',
         './test/smoke/age.js',
-        './helpers/uploadingPicture.js',
     ],
     //
     // ============

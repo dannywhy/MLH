@@ -6,5 +6,6 @@
   "labelAge": "3. How old is your hero?",
   "labelStory": "4. What type of story would you like to read?",
   "ageErrorMessage": "looks like unreal age",
-  "pictureLabel": "5. Upload an image (optional)"
+  "pictureLabel": "5. Upload an image (optional)",
+  "placeholderName": "Hero's name"
 }

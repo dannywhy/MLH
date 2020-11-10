@@ -8,7 +8,7 @@ describe('Inputs', function () {
         it('TC-014 Name ', function () {
             browser.url('');
             const name = $(sel.name).isDisplayed();
-                expect(name).toEqual(true);
+            expect(name).toEqual(true);
         });
 
         it('TC-015-0 Gender He', function () {
@@ -41,9 +41,14 @@ describe('Inputs', function () {
             expect(label).toEqual(true);
         });
 
+        describe('Placeholders name', function () {
+            it('TC-031 Name ', function () {
+                browser.url('');
+                const placeholder = $(sel.name).getAttribute('placeholder');
+                expect(placeholder).toEqual(exp.placeholderName);
+            });
 
-     //   describe('Placeholders name', function () {...} );
+        });
 
     });
-
 });
