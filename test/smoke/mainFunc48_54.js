@@ -1,6 +1,6 @@
 const exp = require('../../data/expected.json');
 const data = require ('../../data/testData.json');
-const inputValue48_54 = require ("../../helpers/inputValue48_54")
+const inputValue48_54 = require ("../../helpers/inputValue48_54");
 import {expect} from 'chai';
 
 describe('Checking if story type is appear', function () {

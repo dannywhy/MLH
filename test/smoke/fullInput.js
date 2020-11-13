@@ -1,10 +1,10 @@
 const sel = require('../../data/selectors.json');
 const data = require('../../data/testData.json');
-const inputFull = require("../../helpers/InputFull.js")
+const inputFull = require("../../helpers/InputFull.js");
 import {expect} from "chai";
 
-
 describe('Create a story with an image', function () {
+
     before('', function () {
         browser.url('');
     })
@@ -15,5 +15,4 @@ describe('Create a story with an image', function () {
         console.log(text);
         expect(text).to.contain(data.name);
     });
-
 });

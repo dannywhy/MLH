@@ -4,7 +4,6 @@ const data = require('../../data/testData.json');
 const inputValues4 = require ('../../helpers/inputValues4.js');
 const inputValues4andClick = require ('../../helpers/inputValues4andClick.js');
 
-
 describe('Checking the main functionality', function () {
 
     describe('Happy path', function () {
@@ -26,6 +25,5 @@ describe('Checking the main functionality', function () {
             const btn = $(sel.tryAgain).isDisplayed();
             expect(btn).toEqual(true);
         });
-
     });
 });

@@ -1,11 +1,12 @@
-{
-  "name": "Martin",
+{ "name": "Martin",
+  "invalidName": "Guinevere-Caoilfhoinn Blaithnaid Jr. O'Suilleabhain Mac Giolla Mhairtin",
   "gender": {
     "he": 0,
     "she": 1,
     "it": 2
   },
   "age": 88,
+  "invalidAge": -1,
   "storyType": {
     "OvercomingTheMonster": 0,
     "Rebirth": 1,

@@ -49,7 +49,6 @@ describe('Inputs', function () {
             expect(label).to.be.equal(true);
         });
 
-
        describe('Placeholder`s name', function () {
            it('TC-010 check name placeholder', function () {
                const textPlaceHolder = $(sel.name).getProperty('placeholder');
@@ -65,7 +64,6 @@ describe('Inputs', function () {
                const storyPlaceholder = $(sel.storyFieldPlaceholder).getText();
                expect(storyPlaceholder).to.be.equal(exp.storiesFieldPlaceholder);
            });
-
        });
     });
 })

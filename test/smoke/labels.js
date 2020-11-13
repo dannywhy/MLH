@@ -10,7 +10,6 @@ describe('My Little Hero', function () {
             browser.pause(2000);
             expect(title).toEqual('MLH trial');
         });
-
     });
 
     describe('Labels exist', function () {
@@ -34,7 +33,6 @@ describe('My Little Hero', function () {
             const label = $$(sel.label)[3].isDisplayed();
             expect(label).toEqual(true);
         });
-
     });
 
     describe('Labels are correct', function () {
@@ -58,6 +56,5 @@ describe('My Little Hero', function () {
             const text = $$(sel.label)[3].getAttribute('title');
             expect(text).toEqual(exp.labelStory);
         });
-
     });
 });

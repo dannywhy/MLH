@@ -7,7 +7,7 @@ function imageUpload(){
         fileUpload
     );
     fileUpload.waitForDisplayed();
-    const filePath = path.join(__dirname, "../data/123.jpeg");
+    const filePath = path.join(__dirname, "../data/Bug.jpg");
     fileUpload.setValue(filePath);
 };
 
