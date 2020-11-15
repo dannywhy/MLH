@@ -7,7 +7,6 @@
   "age": "#age",
   "story": ".ant-select-selector",
   "storyFieldPlaceholder": ".ant-select-selection-placeholder",
-  "pictureLabel": ".ant-form-item-label",
   "button": ".ant-btn",
   "storyClick": ".ant-select-show-arrow",
   "storyType": ".ant-select-item-option",
@@ -17,6 +16,7 @@
   "tryAgain": ".btn",
   "storyImage": ".error__pic",
   "storyText": ".card-text",
+  "explain": ".ant-form-item-explain"
   "moral": "//p[contains(text(), 'Moral')]",
   "chooseGender": ".ant-radio-input",
   "selectedGender": ".ant-radio.ant-radio-checked",
