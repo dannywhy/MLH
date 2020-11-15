@@ -17,6 +17,9 @@
   "tryAgain": ".btn",
   "storyImage": ".error__pic",
   "storyText": ".card-text",
+  "chooseGender": ".ant-radio-input",
+  "selectedGender": ".ant-radio.ant-radio-checked",
+  "fieldClass": ".ant-row.ant-form-item",
   "storyType2": "ant-select-item-option-content",
   "ageErrorMessage": ".ant-form-item-explain",
   "imageUpload": ".ant-upload input"
