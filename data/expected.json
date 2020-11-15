@@ -18,8 +18,13 @@
     "tragedy": "Tragedy",
     "comedy": "Comedy"
   },
-  "labelCreate": "Create!"
-  "ageErrorMessage": "looks like unreal age",
+  "labelCreate": "Create!",
+  "storyPronoun": {
+    "his": "his",
+    "her": "her",
+    "its": "its"
+  },
+   "ageErrorMessage": "looks like unreal age",
   "pictureLabel": "5. Upload an image (optional)",
   "placeholderName": "Hero's name"
 }
