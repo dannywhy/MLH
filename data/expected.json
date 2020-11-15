@@ -1,10 +1,24 @@
 {
-  "mainPageNavigation": "My Little Hero",
   "description": "Let's create your own HERO! It's super easy with our application!",
+  "title": "My Little Hero",
   "labelName": "1. What is your Hero's name?",
   "labelGender": "2. Please choose a gender.",
   "labelAge": "3. How old is your hero?",
   "labelStory": "4. What type of story would you like to read?",
+  "namesFieldPlaceholder": "Hero's name",
+  "agesFieldPlaceholder": "Hero's age",
+  "storiesFieldPlaceholder": "Type of the story",
+  "storyTitleComedy": "Two Cats And A ",
+  "storyType": {
+    "over": "Overcoming the Monster",
+    "rebirth": "Rebirth",
+    "quest": "Quest",
+    "journey": "Journey and Return",
+    "rags": "Rags and Riches",
+    "tragedy": "Tragedy",
+    "comedy": "Comedy"
+  },
+  "labelCreate": "Create!"
   "ageErrorMessage": "looks like unreal age",
   "pictureLabel": "5. Upload an image (optional)",
   "placeholderName": "Hero's name"

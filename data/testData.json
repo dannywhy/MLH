@@ -1,20 +1,20 @@
-
-{
-  "name": "LadyBug",
+{ "name": "Martin",
+  "invalidName": "Guinevere-Caoilfhoinn Blaithnaid Jr. O'Suilleabhain Mac Giolla Mhairtin",
   "gender": {
     "he": 0,
     "she": 1,
     "it": 2
   },
-  "age": 123,
+  "age": 88,
+  "invalidAge": -1,
   "storyType": {
     "OvercomingTheMonster": 0,
     "Rebirth": 1,
     "Quest": 2,
-    "Journey and Return": 3,
-    "Rags and Riches": 4,
+    "JourneyAndReturn": 3,
+    "RagsAndRiches": 4,
     "Tragedy": 5,
     "Comedy": 6
-  }
-
+  },
+  "pathToFile": "../resources/Liberty.jpg"
 }

@@ -1,22 +1,23 @@
 {
-  "mainPageNavigation": "//h3",
+  "title": "//h3",
+  "description": "//p",
   "label": ".ant-form-item-required",
   "name": "#name",
   "gender": ".ant-radio",
   "age": "#age",
   "story": ".ant-select-selector",
+  "storyFieldPlaceholder": ".ant-select-selection-placeholder",
   "pictureLabel": ".ant-form-item-label",
   "button": ".ant-btn",
   "storyClick": ".ant-select-show-arrow",
   "storyType": ".ant-select-item-option",
-  "storyType2": "ant-select-item-option-content",
-  "description": "//p",
-  "ageErrorMessage": ".ant-form-item-explain",
-  "tryAgain": ".btn-primary",
+  "uploadFile": ".ant-upload",
   "create": ".ant-btn",
+  "storyTitle": ".mb-4",
+  "tryAgain": ".btn",
+  "storyImage": ".error__pic",
+  "storyText": ".card-text",
+  "storyType2": "ant-select-item-option-content",
+  "ageErrorMessage": ".ant-form-item-explain",
   "imageUpload": ".ant-upload input"
 }
-
-
-
-
