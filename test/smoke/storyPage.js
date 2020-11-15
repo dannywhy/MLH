@@ -27,7 +27,7 @@ import { expect } from 'chai';
         it('TC-084.002 No image is displayed on the story page', function () {
                 const storyImage = $(sel.storyImage).isDisplayed();
                 expect(storyImage).to.be.equal(false);
-        });
+            });
 
         it('TC-084.003 Story is displayed', function () {
             const storyText = $(sel.storyText).isDisplayed();
@@ -49,10 +49,10 @@ import { expect } from 'chai';
         it('TC-086  Happy path to story page: Try again button exists' , function () {
             browser.url('');
             inputValues4(data.name, data.gender.she, data.age, data.storyType.Comedy)
-            imageUpload()
+            imageUpload(data.pathToFile)
             $(sel.create).click();
-            const tryAgain = $(sel.tryAgain).isDisplayed();
             browser.pause(3000);
+            const tryAgain = $(sel.tryAgain).isDisplayed();
             expect(tryAgain).to.be.equal(true);
         });
 
@@ -62,24 +62,48 @@ import { expect } from 'chai';
         });
 
         it('TC-086.002 An image is displayed on the story page', function () {
-            const storyImage = $(sel.storyImage).isDisplayed();
-            expect(storyImage).to.be.equal(true);
-        });
+                const storyImage = $(sel.storyImage).isDisplayed();
+                expect(storyImage).to.be.equal(true);
+            });
 
         it('TC-086.003 Story is displayed', function () {
             const storyText = $(sel.storyTitle).isDisplayed();
             expect(storyText).to.be.equal(true);
         });
 
+        it('TC-225 An image has a max size 500 px', function () {
+            const imageHeight = $(sel.storyImage).getProperty('height');
+            const imageWidth = $(sel.storyImage).getProperty('width');
+            expect(imageHeight).to.be.lessThan(data.imgMaxSize);
+            expect(imageWidth).to.be.lessThan(data.imgMaxSize);
+        });
+
         it('TC-087  The story appears on the same page (with an image)', function () {
            browser.url('');
            const appUrl = browser.getUrl();
            inputValues4(data.name, data.gender.she, data.age, data.storyType.Comedy)
-            imageUpload()
+            imageUpload(data.pathToFile)
             $(sel.create).click()
            browser.pause(3000);
            const storyUrl = browser.getUrl();
            expect(appUrl).to.be.equal(storyUrl);
         });
+    });
+})
+
+describe ('Try again! Button functionality', function () {
+
+    it ('TC-223 The \'Try again!\' button is always active', function () {
+        browser.url('');
+        inputValues4andClick(data.name, data.gender.she, data.age, data.storyType.Comedy)
+        const tryAgain = $(sel.tryAgain).isEnabled();
+        browser.pause(3000);
+        expect(tryAgain).to.be.equal(true);
+    });
+
+    it ('TC-224 Clicking the \'Try again!\' button performs refreshing the page', function () {
+        $(sel.tryAgain).click();
+        const create = $(sel.create).isDisplayed();
+        expect(create).to.be.equal(true);
     });
 })

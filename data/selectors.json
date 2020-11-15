@@ -17,6 +17,7 @@
   "tryAgain": ".btn",
   "storyImage": ".error__pic",
   "storyText": ".card-text",
+  "moral": "//p[contains(text(), 'Moral')]",
   "chooseGender": ".ant-radio-input",
   "selectedGender": ".ant-radio.ant-radio-checked",
   "fieldClass": ".ant-row.ant-form-item",

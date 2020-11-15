@@ -1,4 +1,6 @@
-{ "name": "Martin",
+{
+  "name": "Martin",
+  "lowerCaseName": "martin",
   "invalidName": "Guinevere-Caoilfhoinn Blaithnaid Jr. O'Suilleabhain Mac Giolla Mhairtin",
   "gender": {
     "he": 0,
@@ -16,5 +18,6 @@
     "Tragedy": 5,
     "Comedy": 6
   },
-  "pathToFile": "../resources/Liberty.jpg"
+  "pathToFile": "../resources/Liberty.jpg",
+  "imgMaxSize": 501
 }
