@@ -19,4 +19,7 @@
     "comedy": "Comedy"
   },
   "labelCreate": "Create!"
+  "ageErrorMessage": "looks like unreal age",
+  "pictureLabel": "5. Upload an image (optional)",
+  "placeholderName": "Hero's name"
 }
