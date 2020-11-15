@@ -16,12 +16,15 @@
   "tryAgain": ".btn",
   "storyImage": ".error__pic",
   "storyText": ".card-text",
-  "explain": ".ant-form-item-explain"
+  "explain": ".ant-form-item-explain",
   "moral": "//p[contains(text(), 'Moral')]",
   "chooseGender": ".ant-radio-input",
   "selectedGender": ".ant-radio.ant-radio-checked",
   "fieldClass": ".ant-row.ant-form-item",
   "storyType2": "ant-select-item-option-content",
   "ageErrorMessage": ".ant-form-item-explain",
-  "imageUpload": ".ant-upload input"
+  "imageUpload": ".ant-upload input",
+  "spinnerUp": ".ant-input-number-handler-up",
+  "ageField": ".ant-input-number-input",
+  "spinnerDown": ".ant-input-number-handler-down"
 }

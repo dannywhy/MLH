@@ -26,7 +26,6 @@
   "ageErrorMessage": "looks like unreal age",
   "pictureLabel": "5. Upload an image (optional)",
   "placeholderName": "Hero's name",
-  "required": "Required",
-  "labelCreate": "Create!",
-  "error": "70 symbols max"
+  "inputAge": "1",
+  "age1": "0"
 }
