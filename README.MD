@@ -2,7 +2,7 @@
 * Clone repository
 ```
 Go to your project folder
-git clone https:https://github.com/dannywhy/MLH
+git clone https://github.com/dannywhy/MLH
 ```
 * Run `npm install`
 * Run `npm test`
