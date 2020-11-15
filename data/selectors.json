@@ -16,10 +16,9 @@
   "tryAgain": ".btn",
   "storyImage": ".error__pic",
   "storyText": ".card-text",
-  "explain": ".ant-form-item-explain",
-  "moral": "//p[contains(text(), 'Moral')]",
   "chooseGender": ".ant-radio-input",
-  "selectedGender": ".ant-radio.ant-radio-checked",
+  "selectedGender": ".ant-radio.ant-radio-checked"
+  "moral": "//p[contains(text(), 'Moral')]",
   "fieldClass": ".ant-row.ant-form-item",
   "storyType2": "ant-select-item-option-content",
   "ageErrorMessage": ".ant-form-item-explain",
