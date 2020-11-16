@@ -11,7 +11,6 @@ describe('Create a story with an image', function() {
   it('TC-031 Create the story with a picture', function() {
     inputFull(data.name, data.gender.he, data.age, data.storyType.Comedy, data.pathToFile);
     const text = $(sel.storyTitle).getProperty('innerText');
-    console.log(text);
     expect(text).to.contain(data.name);
   });
 });

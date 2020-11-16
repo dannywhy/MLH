@@ -27,5 +27,7 @@
   "pictureLabel": "5. Upload an image (optional)",
   "placeholderName": "Hero's name",
   "inputAge": "1",
-  "age1": "0"
+  "age1": "0",
+  "required": "Required",
+  "error": "70 symbols max"
 }
